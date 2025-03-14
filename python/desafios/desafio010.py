@@ -1,0 +1,1 @@
+# faça um algoritmo para ler um preço do produto e o novo preço com 5% de desconto
