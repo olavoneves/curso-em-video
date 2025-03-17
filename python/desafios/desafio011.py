@@ -4,4 +4,4 @@ salarioInicial = float(input('Digite seu salário: R$'))
 salarioDesconto = (salarioInicial * 15) / 100
 salarioFinal = salarioInicial + salarioDesconto
 
-print(f'Após você fazer seu trabalho muito bem você irá receber um aumento de 15% \nSeu novo salário é: {salarioFinal:.2f}')
+print(f'Após você fazer seu trabalho muito bem, irá receber um aumento de 15% \nSeu novo salário é: {salarioFinal:.2f}')
