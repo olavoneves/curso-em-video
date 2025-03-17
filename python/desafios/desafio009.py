@@ -6,7 +6,7 @@ paredeLargura = float(input('Digite a largura da parede em metros: '))
 paredeAltura = float(input('Digite a altura da parede em metros: '))
 
 # Exibição das dimensões da parede
-print('\nA sua parede tem: {} metros de largura, por {} metros de altura. \n'.format(paredeLargura, paredeAltura))
+print('\nA sua parede tem: {}m de largura, por {}m de altura. \n'.format(paredeLargura, paredeAltura))
 
 # Cálculo da área da parede
 areaParede = paredeLargura * paredeAltura
@@ -15,4 +15,4 @@ areaParede = paredeLargura * paredeAltura
 quantidadeDeTinta = areaParede / 2
 
 # Exibição do resultado
-print(f'Você vai precisar de {quantidadeDeTinta:.2f} litros de tinta, para pintar a parede que tem uma área de {areaParede:.2f} metros quadrados.')
+print(f'Você vai precisar de {quantidadeDeTinta:.2f}l de tinta, para pintar a parede que tem uma área de {areaParede:.2f}m^2.')
